@@ -130,3 +130,8 @@
 
 
 /* -----CALL TO ACTION SECTION STYLES----- */
+.sign-up-box-container {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}

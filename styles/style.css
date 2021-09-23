@@ -1,11 +1,61 @@
-body {
-    margin: 10px, 10%, 10px, 10%;
-}
+/* -----TOP SECTION STYLES----- */
 
+/* Section 1 of 5 of the website */
 .top-primary-container {
     background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 5px 10px 5px;
 }
 
-.header-container {
+.header-container {  /* Header Logo and three links */
     display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-links-option {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.awesome-website-container {  /* Contains the header on left and photo on right */
+    display: flex;
+    justify-content: center;
+}
+
+.left-website-about, .right-placeholder-image {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+
+.top-image {
+    width: 400px;
+    height: auto;
+}
+
+.main-header {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
 }

@@ -1,0 +1,11 @@
+body {
+    margin: 10px, 10%, 10px, 10%;
+}
+
+.top-primary-container {
+    background-color: #1F2937;
+}
+
+.header-container {
+    display: flex;
+}

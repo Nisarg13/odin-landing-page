@@ -5,3 +5,4 @@ This is my code for the Landing Page project in The Odin Project Foundations cou
 - Using flexbox with containers and items
 - Continuing to practice Git and Github project management
 - Using Githubs Projects tab and building a Kanban board
+- Taking someone else's design and using HTML/CSS to make it happen

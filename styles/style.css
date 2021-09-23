@@ -22,11 +22,14 @@
     font-size: 18px;
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
 }
 
 .awesome-website-container {  /* Contains the header on left and photo on right */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .left-website-about, .right-placeholder-image {
@@ -62,6 +65,10 @@
 
 
 /* -----RANDOM INFORMATION SECTION STYLES----- */
+.random-information-container {
+    padding: 10px 0 40px 0;
+}
+
 .information-header {
     font-size: 36px;
     color: #1F2937;
@@ -87,4 +94,11 @@
     border-radius: 10px;
     border-color: #3882F6;
     border-style: solid;
+}
+
+.subtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #1F2937;
 }

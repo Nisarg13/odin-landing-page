@@ -59,3 +59,32 @@
     width: 100px;
     height: 30px;
 }
+
+
+/* -----RANDOM INFORMATION SECTION STYLES----- */
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.information {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.info-image {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}

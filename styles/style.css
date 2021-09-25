@@ -59,6 +59,7 @@
     background-color: #3882F6;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     border-radius: 5px;
     width: 100px;
     height: 30px;
@@ -155,3 +156,44 @@
     border-radius: 15px;
 }
 
+.call-to-action-header {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #E5E7EB;
+}
+
+.call-to-action-statement {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+}
+
+
+/* -----FOOTER SECTION STYLES----- */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 120px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

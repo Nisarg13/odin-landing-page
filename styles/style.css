@@ -135,8 +135,23 @@
 
 
 /* -----CALL TO ACTION SECTION STYLES----- */
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
 .sign-up-box-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     height: 350px;
+    background-color: #3882F6;
+    width: 1150px;
+    height: 150px;
+    border-radius: 15px;
 }
+
